@@ -16,9 +16,7 @@ credentials:
 # Vercel Configuration
 # You can create the Vercel Protection Bypass Secret for Automation in this link:
 # https://vercel.com/d?to=/[team]/[project]/settings/deployment-protection&title=Deployment+Protection+settings
-# x-vercel-protection-bypass: your-bypass-secret
-
-
+x-vercel-protection-bypass: zWd1NHvTP01sZcVGAox4vNnuWLpgoTLg
 # Test Execution Preferences
 # Uncomment and modify the options below to customize test execution behavior.
 # CLI options will override these settings when specified.
