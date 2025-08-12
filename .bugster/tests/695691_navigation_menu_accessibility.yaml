@@ -4,8 +4,10 @@ page_path: app/page.tsx
 task: Verify navigation menu is accessible and functional
 steps:
 - Navigate to the homepage
+- Verify either FreeDelivery or SummerSale banner appears first (random order)
 - Locate the navigation menu
 - Verify all menu items are visible
 - Click on navigation links to verify they are functional
 - Verify current page/section is highlighted in the navigation
-expected_result: All navigation links are visible and clickable
+expected_result: All navigation links are visible and clickable, with proper display
+  order of promotional banners

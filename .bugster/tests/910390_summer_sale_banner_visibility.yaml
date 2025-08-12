@@ -1,10 +1,15 @@
-name: Summer sale banner visibility
+name: Summer sale banner visibility with free delivery banner
 page: /
 page_path: app/page.tsx
 task: Verify summer sale banner is visible on homepage
 steps:
 - Navigate to the homepage
-- Look for the summer sale banner at the top of the page
-- Verify the banner displays correct sale information
-- Verify any promotional text or discount percentage is visible
-expected_result: Summer sale banner is displayed with correct discount information
+- Look for both the summer sale and free delivery banners at the top of the page
+- Verify the summer sale banner displays correct sale information regardless of its
+  position
+- Verify any promotional text or discount percentage is visible on the summer sale
+  banner
+- Note the order of banners (summer sale may appear either before or after free delivery
+  banner)
+expected_result: Summer sale banner is displayed with correct discount information,
+  appearing either before or after the free delivery banner

@@ -4,8 +4,10 @@ page_path: app/page.tsx
 task: Verify cart icon shows correct item quantity
 steps:
 - Navigate to the homepage
+- Verify free delivery banner may appear at top or below summer sale banner
 - Add a product to the cart
 - Verify cart icon updates to show 1 item
 - Add another product to the cart
 - Verify cart icon updates to show 2 items
-expected_result: Cart icon displays the correct number of items in cart
+expected_result: Cart icon displays the correct number of items in cart when free
+  delivery banner may appear in different positions
