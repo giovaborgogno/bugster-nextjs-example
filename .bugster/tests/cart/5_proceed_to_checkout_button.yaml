@@ -1,0 +1,12 @@
+name: Proceed to checkout button
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify proceed to checkout button is functional
+steps:
+- Add a product to the cart
+- Navigate to the cart page
+- Locate the proceed to checkout button
+- Verify the button is enabled when cart has items
+- Click on the proceed to checkout button
+- Verify appropriate action occurs (redirect or checkout form appears)
+expected_result: Clicking proceed to checkout initiates the checkout process

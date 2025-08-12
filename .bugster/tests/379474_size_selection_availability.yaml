@@ -1,0 +1,11 @@
+name: Size selection availability
+page: /
+page_path: app/page.tsx
+task: Verify users can select different size options
+steps:
+- Navigate to the homepage
+- Locate the size selection area
+- Click on different size options
+- Verify the selected size is highlighted or marked as selected
+- Verify user cannot proceed with add to cart if no size is selected
+expected_result: Size options are displayed and can be selected
