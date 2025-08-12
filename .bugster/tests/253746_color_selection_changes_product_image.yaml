@@ -5,6 +5,9 @@ task: Verify selecting different colors updates the product image
 steps:
 - Navigate to the homepage
 - Note the current product image
+- Verify either Free Delivery banner or Summer Sale banner is visible at the top
 - Select a different color option
 - Verify the product image updates to reflect the new color selection
-expected_result: Product image changes to match the selected color
+- Verify both Free Delivery and Summer Sale banners are displayed (in either order)
+expected_result: Product image changes to match the selected color, regardless of
+  banner display order

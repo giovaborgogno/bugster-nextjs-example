@@ -1,0 +1,14 @@
+name: Random Banner Order
+page: Homepage
+page_path: app/page.tsx
+task: Verify the free delivery and summer sale banners appear in random order
+steps:
+- Navigate to the homepage
+- Verify both the Free Delivery banner and Summer Sale banner are visible
+- Note which banner appears first (either Free Delivery or Summer Sale)
+- Refresh the page multiple times
+- Verify that over multiple refreshes, sometimes Free Delivery appears first and sometimes
+  Summer Sale appears first
+- Verify both banners always display their correct content regardless of position
+expected_result: Both banners should be visible with their order randomized between
+  page loads

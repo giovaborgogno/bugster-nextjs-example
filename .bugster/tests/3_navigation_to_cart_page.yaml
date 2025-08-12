@@ -4,7 +4,11 @@ page_path: app/page.tsx
 task: Verify users can navigate to cart page from the navigation menu
 steps:
 - Navigate to the homepage
+- Note which promotional banner appears first (Free Delivery or Summer Sale)
 - Click on the cart icon in the navigation bar
 - Verify redirect to cart page
 - Verify the URL is /cart
-expected_result: User is redirected to the cart page
+- Verify both Free Delivery and Summer Sale banners are present in the correct random
+  order
+expected_result: User is redirected to the cart page, potentially seeing either a
+  Free Delivery banner or Summer Sale banner first depending on random placement

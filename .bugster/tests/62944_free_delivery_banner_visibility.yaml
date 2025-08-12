@@ -4,7 +4,10 @@ page_path: app/page.tsx
 task: Verify free delivery banner is visible
 steps:
 - Navigate to the homepage
-- Look for the free delivery banner
+- Look for the free delivery banner which may appear either before or after the summer
+  sale banner
+- Verify the FreeDelivery component is rendered on the page
 - Verify the banner displays correct shipping information
 - Verify any minimum order requirements are clearly displayed
-expected_result: Free delivery banner is displayed with shipping information
+expected_result: Free delivery banner is displayed with shipping information, possibly
+  appearing before or after the summer sale banner

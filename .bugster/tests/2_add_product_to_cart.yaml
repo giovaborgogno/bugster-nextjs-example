@@ -4,8 +4,11 @@ page_path: app/page.tsx
 task: Verify users can add a product to their cart
 steps:
 - Navigate to the homepage
+- Note which banner appears first (FreeDelivery or SummerSale)
 - Select a color option
 - Select a size option
 - Click the 'Add to cart' button
 - Verify success notification appears
-expected_result: Product is added to cart and success notification appears
+expected_result: Product is added to cart and success notification appears, with either
+  the FreeDelivery banner or SummerSale banner showing first depending on random display
+  order
