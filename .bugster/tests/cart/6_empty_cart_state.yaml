@@ -1,0 +1,11 @@
+name: Empty cart state
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify empty cart state is handled correctly
+steps:
+- Ensure cart is empty (remove all items if necessary)
+- Navigate to the cart page
+- Verify empty cart message is displayed
+- Verify proceed to checkout button is disabled or not present
+- Verify there is a prompt to continue shopping
+expected_result: Empty cart displays appropriate message and disabled checkout button

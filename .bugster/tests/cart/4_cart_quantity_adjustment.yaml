@@ -1,0 +1,13 @@
+name: Cart quantity adjustment
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify users can adjust item quantities in cart
+steps:
+- Add a product to the cart
+- Navigate to the cart page
+- Locate quantity adjustment controls
+- Increase the quantity of the item
+- Verify the item subtotal and cart total update correctly
+- Decrease the quantity of the item
+- Verify the item subtotal and cart total update correctly
+expected_result: Item quantities can be adjusted and totals update accordingly

@@ -2,6 +2,7 @@ import { getCart } from '@/lib/actions';
 import { ShoppingBagIcon, ShoppingCartIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { Suspense } from 'react';
+import { ThemeToggleButton } from '@/components/theme-toggle';
 
 const navigation = ['Home', 'Sale', 'New', 'Shirts', 'Stickers'];
 
@@ -28,11 +29,11 @@ async function ShoppingCartNavItem() {
 
 export function Navigation() {
   return (
-    <header className="relative bg-white mx-auto max-w-2xl  lg:max-w-7xl">
+    <header className="relative bg-white dark:bg-gray-900 mx-auto max-w-2xl  lg:max-w-7xl">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-24 items-center justify-between max-w-2xl lg:max-w-none mx-auto">
           <div className="flex flex-1 items-center lg:hidden">
-            <button type="button" className="-ml-2 rounded-md bg-white p-2">
+            <button type="button" className="-ml-2 rounded-md bg-white dark:bg-gray-900 p-2">
               <Link
                 href="/"
                 className="lg:flex w-full items-center justify-center"
@@ -54,7 +55,7 @@ export function Navigation() {
               return (
                 <span
                   key={page}
-                  className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800"
+                  className="flex items-center text-sm font-medium text-gray-700 hover:text-gray-800 dark:text-gray-300 dark:hover:text-white"
                 >
                   {page === 'Home' ? <Link href="/">Home</Link> : page}
                 </span>
@@ -68,6 +69,7 @@ export function Navigation() {
                 <ShoppingCartNavItem />
               </Suspense>
             </div>
+            <ThemeToggleButton />
           </div>
         </div>
       </nav>

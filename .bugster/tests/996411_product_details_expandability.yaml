@@ -1,0 +1,11 @@
+name: Product details expandability
+page: /
+page_path: app/page.tsx
+task: Verify product details section is expandable
+steps:
+- Navigate to the homepage
+- Locate the product details section
+- Click on expand/collapse controls if present
+- Verify additional product information is displayed when expanded
+- Verify information is hidden when collapsed
+expected_result: Product details can be expanded to show more information

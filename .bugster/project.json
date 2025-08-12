@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "timestamp": 1752256854938,
+    "timestamp": 1755006309547,
     "version": 2,
     "git": {
-      "branch": "main",
-      "commit": "e5a609bae1dd6c284cad0c163cc5a9ecbe4dbe38"
+      "branch": "giovaborgogno/test-pr",
+      "commit": "573451078c8e3d83decba2475bf81aa4777be0c1"
     }
   },
   "data": {
@@ -12,13 +12,8 @@
       {
         "id": "next",
         "name": "Next.js",
-        "dir_path": "/Users/giovaborgogno/repos/bugster/shirt-shop-example/"
+        "dir_path": "/Users/giovaborgogno/repos/bugster/bugster-nextjs-example/"
       }
-    ],
-    "commands": {
-      "test": {
-        "firstExecuted": true
-      }
-    }
+    ]
   }
 }

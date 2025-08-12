@@ -1,0 +1,11 @@
+name: Order summary calculation
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify order summary correctly calculates totals
+steps:
+- Add multiple products to the cart
+- Navigate to the cart page
+- Verify the subtotal matches the sum of all items
+- Verify shipping costs are correctly applied
+- Verify the total amount is the sum of subtotal and shipping
+expected_result: Order summary displays correct subtotal, shipping, and total calculations

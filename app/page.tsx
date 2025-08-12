@@ -7,13 +7,26 @@ import { ColorPicker } from '@/components/product-detail-page/color-picker';
 import { SizePicker } from '@/components/product-detail-page/size-picker';
 import { ProductDetailPageProvider } from '@/components/utils/product-detail-page-context';
 import { Main } from '@/components/main';
+import { FreeDelivery } from '@/app/free-delivery';
 
 export default function Page() {
   const showSummerBanner = true;
+  const showFreeDeliveryBanner = true;
+  const showFreeFirst = Math.random() < 0.5;
 
   return (
     <ProductDetailPageProvider>
-      <SummerSale show={showSummerBanner} />
+      {showFreeFirst ? (
+        <>
+          <FreeDelivery show={showFreeDeliveryBanner} />
+          <SummerSale show={showSummerBanner} />
+        </>
+      ) : (
+        <>
+          <SummerSale show={showSummerBanner} />
+          <FreeDelivery show={showFreeDeliveryBanner} />
+        </>
+      )}
       <Main>
         <div className="lg:grid lg:auto-rows-min lg:grid-cols-12 lg:gap-x-8">
           <ProductHeader />
