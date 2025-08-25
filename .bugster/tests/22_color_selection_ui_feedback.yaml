@@ -1,0 +1,12 @@
+name: Color selection UI feedback
+page: /
+page_path: app/page.tsx
+task: Verify color selection provides clear visual feedback
+steps:
+- Navigate to the homepage
+- Observe the default state of color options
+- Click on a color option
+- Verify the selected color is visually highlighted
+- Click on a different color option
+- Verify the new color is highlighted and the previous selection is no longer highlighted
+expected_result: Selected color is visually highlighted and maintains state

@@ -1,0 +1,11 @@
+name: Add to cart animation/feedback
+page: /
+page_path: app/page.tsx
+task: Verify visual feedback when adding item to cart
+steps:
+- Navigate to the homepage
+- Select product options (color and size)
+- Click 'Add to cart' button
+- Verify visual feedback appears (animation, toast notification, etc.)
+- Verify cart icon updates to reflect added item
+expected_result: User receives clear visual confirmation when item is added to cart

@@ -1,0 +1,12 @@
+name: Cart quantity minimum limit
+page: cart
+page_path: app/cart/page.tsx
+task: Verify minimum quantity limit enforcement
+steps:
+- Add an item to cart
+- Navigate to cart page
+- Decrease quantity to 1 using '-' button
+- Attempt to decrease quantity further
+- Verify quantity remains at minimum (1)
+- Verify '-' button is disabled or provides feedback
+expected_result: Users cannot decrease item quantity below minimum limit (1)

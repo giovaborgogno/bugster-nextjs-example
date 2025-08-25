@@ -1,0 +1,13 @@
+name: Error handling for failed add to cart
+page: /
+page_path: app/add-to-cart.tsx
+task: Verify error handling when add to cart fails
+steps:
+- Navigate to homepage
+- Select product options
+- Simulate network failure (disable network in dev tools)
+- Click 'Add to cart' button
+- Verify error message is displayed
+- Verify guidance is provided on how to retry
+expected_result: User receives appropriate error message when add to cart operation
+  fails

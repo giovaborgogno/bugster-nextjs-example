@@ -1,0 +1,13 @@
+name: Mobile navigation menu
+page: /
+page_path: app/layout.tsx
+task: Verify mobile navigation menu functionality
+steps:
+- Set viewport to mobile dimensions
+- Navigate to the homepage
+- Locate mobile menu button/hamburger icon
+- Click to open the mobile navigation menu
+- Verify all navigation options are displayed
+- Click on a navigation item
+- Verify navigation to the correct page
+expected_result: Navigation menu should be accessible and functional on mobile viewport

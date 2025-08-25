@@ -1,0 +1,10 @@
+name: Navigation menu functionality
+page: /
+page_path: app/layout.tsx
+task: Verify navigation menu functionality
+steps:
+- Navigate to the homepage
+- Verify navigation menu is visible
+- Click on each navigation item
+- Verify proper navigation to corresponding pages
+expected_result: Navigation menu should be accessible and functional

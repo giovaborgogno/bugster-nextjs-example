@@ -1,0 +1,10 @@
+name: Add to cart with no color selected
+page: /
+page_path: app/page.tsx
+task: Verify add to cart validation when no color is selected
+steps:
+- Navigate to the homepage
+- Select a size option
+- Without selecting a color, click the 'Add to cart' button
+- Verify user receives a notification to select a color
+expected_result: User should be prompted to select a color before adding to cart

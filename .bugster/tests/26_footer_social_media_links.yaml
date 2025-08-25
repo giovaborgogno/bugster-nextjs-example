@@ -1,0 +1,11 @@
+name: Footer social media links
+page: /
+page_path: app/layout.tsx
+task: Verify footer social media links are functional
+steps:
+- Navigate to the homepage
+- Scroll to the footer
+- Identify social media links
+- Click on each social media link
+- Verify each link opens in a new tab with correct destination
+expected_result: Social media links open in new tabs with correct URLs

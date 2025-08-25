@@ -1,0 +1,13 @@
+name: Shopping cart keyboard navigation
+page: cart
+page_path: app/cart/page.tsx
+task: Verify keyboard navigation in shopping cart
+steps:
+- Add items to cart
+- Navigate to cart page
+- Use Tab key to navigate through cart elements
+- Verify focus indicators are visible on all interactive elements
+- Use Enter key to interact with quantity controls
+- Use Enter key to remove an item
+- Verify all actions can be completed with keyboard only
+expected_result: Users can navigate and interact with cart using keyboard only

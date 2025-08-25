@@ -1,0 +1,12 @@
+name: Navigation to cart when adding first item
+page: /
+page_path: app/add-to-cart.tsx
+task: Verify user is not automatically navigated to cart when adding first item
+steps:
+- Ensure cart is empty
+- Navigate to homepage
+- Select product options (color and size)
+- Click 'Add to cart' button
+- Verify user remains on homepage
+- Verify cart icon updates to show item count
+expected_result: User remains on current page after adding item to cart

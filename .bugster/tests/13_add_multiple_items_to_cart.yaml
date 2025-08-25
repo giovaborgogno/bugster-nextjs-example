@@ -1,0 +1,13 @@
+name: Add multiple items to cart
+page: /
+page_path: app/page.tsx
+task: Verify adding multiple items to cart
+steps:
+- Navigate to the homepage
+- Select a color and size for the product
+- Click 'Add to cart'
+- Select different color and size options
+- Click 'Add to cart' again
+- Navigate to the cart page
+- Verify both items appear in the cart with correct options
+expected_result: Multiple items should be added to cart successfully

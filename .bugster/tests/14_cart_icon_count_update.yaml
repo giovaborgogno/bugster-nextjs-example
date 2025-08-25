@@ -1,0 +1,12 @@
+name: Cart icon count update
+page: /
+page_path: app/layout.tsx
+task: Verify cart icon updates with item count
+steps:
+- Ensure cart is empty
+- Verify cart icon shows zero or is empty
+- Add a product to cart
+- Verify cart icon updates to show 1 item
+- Add another product to cart
+- Verify cart icon updates to show 2 items
+expected_result: Cart icon should display the correct number of items in cart

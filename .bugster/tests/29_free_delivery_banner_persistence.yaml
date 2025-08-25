@@ -1,0 +1,12 @@
+name: Free delivery banner persistence
+page: /
+page_path: app/free-delivery.tsx
+task: Verify free delivery banner persists across pages
+steps:
+- Navigate to the homepage
+- Verify free delivery banner is visible
+- Navigate to the cart page
+- Verify free delivery banner is still visible
+- Navigate back to homepage
+- Verify free delivery banner remains visible
+expected_result: Free delivery banner is consistently visible across different pages

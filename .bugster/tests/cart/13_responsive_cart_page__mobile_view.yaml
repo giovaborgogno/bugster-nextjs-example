@@ -1,0 +1,12 @@
+name: Responsive cart page - mobile view
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify cart page responsive design on mobile viewports
+steps:
+- Add items to cart
+- Set viewport to mobile dimensions (e.g., 375x667)
+- Navigate to the cart page
+- Verify all cart items are properly visible
+- Verify order summary is properly formatted
+- Verify all buttons and controls are accessible
+expected_result: Cart page layout should adapt correctly to mobile screen sizes

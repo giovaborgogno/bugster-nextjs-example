@@ -1,0 +1,12 @@
+name: Focus management after cart interactions
+page: cart
+page_path: app/cart/page.tsx
+task: Verify keyboard focus management after cart interactions
+steps:
+- Add items to cart
+- Navigate to cart page using keyboard
+- Use keyboard to change item quantity
+- Verify focus remains on quantity control after operation
+- Use keyboard to remove an item
+- Verify focus moves to a logical next element after removal
+expected_result: Focus is maintained in a logical position after cart operations

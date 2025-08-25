@@ -1,0 +1,12 @@
+name: Summer sale banner interactions
+page: /
+page_path: app/summer-sale.tsx
+task: Verify summer sale banner interactions
+steps:
+- Navigate to the homepage
+- Locate the summer sale banner
+- Verify promotional text is visible
+- Click on any CTA buttons in the banner
+- Verify appropriate action occurs (navigation, modal, etc.)
+- If dismissible, verify dismiss functionality works
+expected_result: Summer sale banner responds to user interactions correctly

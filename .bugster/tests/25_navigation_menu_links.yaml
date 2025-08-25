@@ -1,0 +1,11 @@
+name: Navigation menu links
+page: /
+page_path: app/layout.tsx
+task: Verify all navigation menu links work correctly
+steps:
+- Navigate to the homepage
+- Observe the navigation menu items
+- Click on each navigation link
+- Verify each link navigates to the correct page
+- Verify navigation back to homepage works
+expected_result: All navigation links direct to the correct pages

@@ -1,0 +1,12 @@
+name: Image gallery navigation
+page: /
+page_path: app/page.tsx
+task: Verify product image gallery navigation
+steps:
+- Navigate to the homepage
+- Locate the product image gallery
+- Click on navigation controls (next/previous) if available
+- Verify images change accordingly
+- Click on thumbnail images if available
+- Verify main image updates to match selected thumbnail
+expected_result: Users should be able to navigate through product images

@@ -1,0 +1,11 @@
+name: Cart shipping calculation
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify shipping cost calculation in order summary
+steps:
+- Add products to cart
+- Navigate to the cart page
+- View the order summary section
+- Verify shipping amount is calculated and displayed
+- If free shipping threshold exists, verify it's applied correctly
+expected_result: Shipping costs should be calculated and displayed correctly

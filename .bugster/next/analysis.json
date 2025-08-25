@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "timestamp": 1752256861.4664378,
+    "timestamp": 1756127707.408171,
     "version": 2,
     "git": {
-      "branch": "main",
-      "commit": "e5a609bae1dd6c284cad0c163cc5a9ecbe4dbe38"
+      "branch": "giovaborgogno/test-2",
+      "commit": "d4306e203da30c09b6555c4d7e6532c9f74928a1"
     }
   },
   "data": {
     "framework": {
       "id": "next",
       "name": "Next.js",
-      "dir_path": "/Users/giovaborgogno/repos/bugster/shirt-shop-example/"
+      "dir_path": "/Users/giovaborgogno/repos/bugster/bugster-nextjs-example/"
     },
     "router_type": "app",
     "stats": {
@@ -27,12 +27,12 @@
         "relative_dir_path": "app",
         "content": "import { VercelToolbar } from '@vercel/toolbar/next';\nimport { Analytics } from '@vercel/analytics/next';\nimport type { Metadata } from 'next';\nimport { Toaster } from 'sonner';\n\nimport './globals.css';\nimport { FreeDelivery } from '@/app/free-delivery';\nimport { Footer } from '@/components/footer';\nimport { Navigation } from '@/components/navigation';\n\nexport const metadata: Metadata = {\n  title: 'Shirt Shop Example',\n  description: 'A shirt shop example for Ecommerce',\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{\n  children: React.ReactNode;\n}>) {\n  const showFreeDeliveryBanner = true;\n\n  return (\n    <html lang=\"en\">\n      <body className=\"antialiased\">\n        <div className=\"bg-white\">\n          <FreeDelivery show={showFreeDeliveryBanner} />\n          <Navigation />\n          {children}\n          <Footer />\n        </div>\n        <Toaster />\n        <Analytics />\n        <VercelToolbar />\n      </body>\n    </html>\n  );\n}\n",
         "components": [
-          "Analytics",
-          "Footer",
-          "Toaster",
-          "FreeDelivery",
           "Navigation",
-          "VercelToolbar"
+          "Footer",
+          "VercelToolbar",
+          "FreeDelivery",
+          "Analytics",
+          "Toaster"
         ]
       }
     ],
@@ -45,8 +45,8 @@
         ],
         "components": [
           "OrderSummary",
-          "ShoppingCart",
-          "Main"
+          "Main",
+          "ShoppingCart"
         ],
         "hasParams": false,
         "hasForm": false,
@@ -61,15 +61,15 @@
           "function"
         ],
         "components": [
-          "ProductHeader",
-          "ProductDetails",
           "SizePicker",
+          "AddToCart",
+          "ProductHeader",
           "Main",
           "ColorPicker",
-          "AddToCart",
-          "SummerSale",
           "ImageGallery",
-          "ProductDetailPageProvider"
+          "ProductDetailPageProvider",
+          "ProductDetails",
+          "SummerSale"
         ],
         "hasParams": false,
         "hasForm": false,

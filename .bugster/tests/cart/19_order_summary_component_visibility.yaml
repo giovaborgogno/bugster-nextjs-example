@@ -1,0 +1,13 @@
+name: Order summary component visibility
+page: cart
+page_path: app/cart/order-summary.tsx
+task: Verify order summary is properly displayed
+steps:
+- Add items to cart
+- Navigate to cart page
+- Locate order summary section
+- Verify subtotal is displayed correctly
+- Verify shipping costs are displayed
+- Verify taxes are displayed if applicable
+- Verify total amount is displayed and calculated correctly
+expected_result: Order summary shows all relevant pricing information clearly

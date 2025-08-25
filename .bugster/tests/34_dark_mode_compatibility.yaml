@@ -1,0 +1,12 @@
+name: Dark mode compatibility
+page: /
+page_path: app/layout.tsx
+task: Verify site appearance in browser dark mode
+steps:
+- Enable dark mode in browser or system settings
+- Navigate to homepage
+- Verify text remains readable
+- Verify images and UI elements maintain proper contrast
+- Navigate to cart page
+- Verify all cart elements are properly visible in dark mode
+expected_result: Site maintains readability and visual hierarchy in dark mode

@@ -4,30 +4,28 @@
 
 # Project Information
 project_name: bugster-nextjs-example
-project_id: v2f2DejgZNgB7HZhs8dO
+project_id: bugster-nextjs-example-1755531803
 base_url: "http://localhost:3000"
 
 # Project Authentication
 credentials:
   - id: admin
-    username: admin
-    password: admin
+    username: ${BUGSTER_USERNAME}
+    password: ${BUGSTER_PASSWORD}
 
 # Vercel Configuration
 # You can create the Vercel Protection Bypass Secret for Automation in this link:
 # https://vercel.com/d?to=/[team]/[project]/settings/deployment-protection&title=Deployment+Protection+settings
-# x-vercel-protection-bypass: your-bypass-secret
-
-
+x-vercel-protection-bypass: ${VERCEL_BYPASS_SECRET}
 # Test Execution Preferences
 # Uncomment and modify the options below to customize test execution behavior.
 # CLI options will override these settings when specified.
-# preferences:
-#   tests:
-#     always_run:
-#       - .bugster/tests/test1.yaml
-#       - .bugster/tests/test2.yaml
-#     limit: 5                    # Maximum number of tests to run
+preferences:
+  tests:
+    #     always_run:
+    #       - .bugster/tests/test1.yaml
+    #       - .bugster/tests/test2.yaml
+    limit: 1 # Maximum number of tests to run
 #     headless: false             # Run tests in headless mode
 #     silent: false               # Run tests in silent mode
 #     verbose: false              # Enable verbose output

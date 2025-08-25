@@ -1,3 +1,5 @@
+# s
+
 # 🐛 Bugster - Automated Testing for Next.js
 
 **Generate and run comprehensive tests for your Next.js applications with AI-powered automation.**

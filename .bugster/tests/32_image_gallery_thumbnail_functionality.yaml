@@ -1,0 +1,13 @@
+name: Image gallery thumbnail functionality
+page: /
+page_path: app/page.tsx
+task: Verify image gallery thumbnails change main image
+steps:
+- Navigate to homepage
+- Observe main product image
+- Locate thumbnail images in gallery
+- Click on a different thumbnail image
+- Verify main image updates to match selected thumbnail
+- Click on each available thumbnail
+- Verify main image updates correctly for each selection
+expected_result: Clicking thumbnails updates the main product image
