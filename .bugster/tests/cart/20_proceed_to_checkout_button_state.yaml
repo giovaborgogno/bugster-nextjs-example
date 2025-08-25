@@ -1,0 +1,13 @@
+name: Proceed to checkout button state
+page: cart
+page_path: app/cart/proceed-to-checkout.tsx
+task: Verify proceed to checkout button state changes appropriately
+steps:
+- Ensure cart is empty
+- Navigate to cart page
+- Verify proceed to checkout button is disabled or shows appropriate state
+- Add an item to cart
+- Navigate to cart page
+- Verify proceed to checkout button is enabled
+expected_result: Checkout button is disabled when cart is empty and enabled when items
+  are in cart

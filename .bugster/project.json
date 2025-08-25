@@ -1,0 +1,19 @@
+{
+  "metadata": {
+    "timestamp": 1756127707337,
+    "version": 2,
+    "git": {
+      "branch": "giovaborgogno/test-2",
+      "commit": "d4306e203da30c09b6555c4d7e6532c9f74928a1"
+    }
+  },
+  "data": {
+    "frameworks": [
+      {
+        "id": "next",
+        "name": "Next.js",
+        "dir_path": "/Users/giovaborgogno/repos/bugster/bugster-nextjs-example/"
+      }
+    ]
+  }
+}

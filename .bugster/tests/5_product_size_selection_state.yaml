@@ -1,0 +1,12 @@
+name: Product size selection state
+page: /
+page_path: app/page.tsx
+task: Verify size selection is visually indicated
+steps:
+- Navigate to the homepage
+- Click on a size option
+- Verify the selected size is visually highlighted
+- Click on a different size option
+- Verify the new size is highlighted and the previous selection is no longer highlighted
+expected_result: The selected size option should be visually distinct from unselected
+  options

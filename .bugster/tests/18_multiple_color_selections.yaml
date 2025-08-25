@@ -1,0 +1,14 @@
+name: Multiple color selections
+page: /
+page_path: app/page.tsx
+task: Verify changing color selection multiple times
+steps:
+- Navigate to the homepage
+- Select the first color option
+- Verify product image updates accordingly
+- Select a different color option
+- Verify product image updates to the new selection
+- Select a third color option
+- Verify product image updates to the latest selection
+expected_result: Product image and selected color indicator should update with each
+  selection

@@ -1,0 +1,12 @@
+name: Cart cross-device persistence
+page: cart
+page_path: app/cart/page.tsx
+task: Verify cart contents persist across browser sessions
+steps:
+- Add products to cart
+- Verify items appear in cart
+- Close the browser completely
+- Reopen browser and navigate to the site
+- Navigate to cart page
+- Verify previously added items are still in the cart
+expected_result: Cart items remain in cart after closing and reopening browser

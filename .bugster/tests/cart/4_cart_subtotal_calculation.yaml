@@ -1,0 +1,10 @@
+name: Cart subtotal calculation
+page: /cart
+page_path: app/cart/page.tsx
+task: Verify cart subtotal calculation
+steps:
+- Add multiple products to cart with different prices
+- Navigate to the cart page
+- Manually calculate the expected subtotal
+- Verify the displayed subtotal matches the expected calculation
+expected_result: Cart subtotal should accurately reflect the sum of all items

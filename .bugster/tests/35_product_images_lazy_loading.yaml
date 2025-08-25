@@ -1,0 +1,12 @@
+name: Product images lazy loading
+page: /
+page_path: app/page.tsx
+task: Verify product images load efficiently
+steps:
+- Throttle network connection in browser dev tools
+- Navigate to homepage
+- Observe image loading behavior
+- Verify placeholder or skeleton is shown while images load
+- Scroll down to view additional images
+- Verify images load as they enter viewport
+expected_result: Images load progressively as user scrolls

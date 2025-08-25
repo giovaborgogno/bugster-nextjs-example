@@ -1,0 +1,13 @@
+name: Free delivery threshold notification
+page: cart
+page_path: app/cart/page.tsx
+task: Verify free delivery threshold notification appears when applicable
+steps:
+- Empty the cart if needed
+- Add a low-cost item to cart
+- Navigate to the cart page
+- Verify a notification appears showing remaining amount needed for free delivery
+- Add more items until above threshold
+- Verify notification changes to indicate free delivery has been achieved
+expected_result: User sees notification about how much more to spend for free delivery
+  when below threshold

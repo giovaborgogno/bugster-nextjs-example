@@ -1,0 +1,11 @@
+name: Product details readability
+page: /
+page_path: app/page.tsx
+task: Verify product details are clearly readable
+steps:
+- Navigate to the homepage
+- Verify product title is clearly visible
+- Verify product price is correctly formatted
+- Verify product description is legible
+- Verify product options (colors, sizes) are clearly labeled
+expected_result: All product information should be clearly visible and formatted

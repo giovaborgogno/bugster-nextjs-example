@@ -1,0 +1,11 @@
+name: Size selection out of stock feedback
+page: /
+page_path: app/page.tsx
+task: Verify out of stock sizes provide appropriate feedback
+steps:
+- Navigate to the homepage
+- Identify sizes that are marked as out of stock
+- Attempt to click on an out of stock size
+- Verify that the out of stock size provides visual feedback that it cannot be selected
+- Verify that the out of stock indication is visually distinct
+expected_result: Out of stock sizes are visually indicated and cannot be selected

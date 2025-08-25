@@ -1,0 +1,10 @@
+name: Product image update on color change
+page: /
+page_path: app/page.tsx
+task: Verify product images update when color is changed
+steps:
+- Navigate to the homepage
+- Note current product images in gallery
+- Select a different color option
+- Verify all product images in gallery update to show the product in the new color
+expected_result: Product images change to match the selected color

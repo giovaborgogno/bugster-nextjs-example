@@ -1,0 +1,11 @@
+name: Continue shopping from cart
+page: cart
+page_path: app/cart/page.tsx
+task: Verify continue shopping functionality from empty cart
+steps:
+- Ensure cart is empty
+- Navigate to the cart page
+- Verify empty cart state is displayed
+- Click on 'Continue shopping' or similar button
+- Verify navigation returns to homepage
+expected_result: User can navigate back to shopping from empty cart state

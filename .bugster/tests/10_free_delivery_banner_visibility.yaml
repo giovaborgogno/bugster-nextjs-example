@@ -1,0 +1,10 @@
+name: Free delivery banner visibility
+page: /
+page_path: app/layout.tsx
+task: Verify free delivery banner is visible across the site
+steps:
+- Navigate to the homepage
+- Verify the free delivery banner is visible at the top
+- Navigate to the cart page
+- Verify the free delivery banner is still visible at the top
+expected_result: Free delivery banner should be displayed at the top of the page

@@ -1,0 +1,11 @@
+name: Toaster notification dismissal
+page: /
+page_path: app/page.tsx
+task: Verify notification dismissal functionality
+steps:
+- Navigate to the homepage
+- Add a product to cart to trigger a notification
+- Verify notification appears
+- Click the close/dismiss button on the notification
+- Verify the notification disappears
+expected_result: Notifications should be dismissable by the user

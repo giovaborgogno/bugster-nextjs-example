@@ -1,0 +1,12 @@
+name: Product details visibility
+page: /
+page_path: app/page.tsx
+task: Verify all product details are clearly visible
+steps:
+- Navigate to the homepage
+- Verify product name is visible and properly formatted
+- Verify product price is visible and properly formatted
+- Verify product description is visible and readable
+- Verify product specifications are displayed
+- Scroll through all product information to ensure it's completely visible
+expected_result: All product details are displayed and formatted correctly

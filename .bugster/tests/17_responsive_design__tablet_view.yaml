@@ -1,0 +1,11 @@
+name: Responsive design - tablet view
+page: /
+page_path: app/page.tsx
+task: Verify responsive design on tablet viewports
+steps:
+- Set viewport to tablet dimensions (e.g., 768x1024)
+- Navigate to the homepage
+- Verify all content is properly visible and aligned
+- Verify navigation elements are accessible
+- Verify product details are legible and properly formatted
+expected_result: Page layout should adapt correctly to tablet screen sizes

@@ -1,0 +1,10 @@
+name: Add to cart with no size selected
+page: /
+page_path: app/page.tsx
+task: Verify add to cart validation when no size is selected
+steps:
+- Navigate to the homepage
+- Select a color option
+- Without selecting a size, click the 'Add to cart' button
+- Verify user receives a notification to select a size
+expected_result: User should be prompted to select a size before adding to cart

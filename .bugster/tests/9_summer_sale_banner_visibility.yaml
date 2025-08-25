@@ -1,0 +1,9 @@
+name: Summer sale banner visibility
+page: /
+page_path: app/page.tsx
+task: Verify summer sale banner is visible on the homepage
+steps:
+- Navigate to the homepage
+- Verify the summer sale banner is visible
+- Verify the banner contains promotional text
+expected_result: Summer sale banner should be displayed with promotional information

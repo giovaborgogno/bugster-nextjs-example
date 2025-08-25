@@ -1,0 +1,11 @@
+name: Header sticky behavior
+page: /
+page_path: app/layout.tsx
+task: Verify header remains visible when scrolling
+steps:
+- Navigate to homepage
+- Observe header position
+- Scroll down the page
+- Verify header remains visible at top of viewport
+- Verify all navigation elements remain accessible while scrolling
+expected_result: Header sticks to top of viewport when scrolling down

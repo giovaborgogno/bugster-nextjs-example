@@ -1,0 +1,11 @@
+name: Maximum quantity limit
+page: cart
+page_path: app/cart/page.tsx
+task: Verify maximum quantity limit enforcement
+steps:
+- Add an item to cart
+- Navigate to cart page
+- Repeatedly increase quantity using '+' button
+- Verify quantity stops increasing once maximum limit is reached
+- Verify visual feedback indicating maximum limit has been reached
+expected_result: Users cannot increase item quantity beyond maximum limit

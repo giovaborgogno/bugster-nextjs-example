@@ -1,0 +1,10 @@
+name: Footer link functionality
+page: /
+page_path: app/layout.tsx
+task: Verify footer links are functional
+steps:
+- Navigate to the homepage
+- Scroll to the footer
+- Click on each footer link
+- Verify each link navigates to the correct page or section
+expected_result: Footer links should navigate to appropriate pages

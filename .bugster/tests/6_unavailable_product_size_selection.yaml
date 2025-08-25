@@ -1,0 +1,10 @@
+name: Unavailable product size selection
+page: /
+page_path: app/page.tsx
+task: Verify users cannot select unavailable sizes
+steps:
+- Navigate to the homepage
+- Identify sizes that are marked as unavailable
+- Attempt to click on an unavailable size
+- Verify that the unavailable size cannot be selected
+expected_result: Unavailable sizes should be visually distinct and not selectable
