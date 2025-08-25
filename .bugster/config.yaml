@@ -25,7 +25,7 @@ preferences:
     #     always_run:
     #       - .bugster/tests/test1.yaml
     #       - .bugster/tests/test2.yaml
-    limit: 99 # Maximum number of tests to run
+    limit: 25 # Maximum number of tests to run
 #     headless: false             # Run tests in headless mode
 #     silent: false               # Run tests in silent mode
 #     verbose: false              # Enable verbose output
