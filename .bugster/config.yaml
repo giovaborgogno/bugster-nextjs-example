@@ -20,12 +20,12 @@ x-vercel-protection-bypass: ${VERCEL_BYPASS_SECRET}
 # Test Execution Preferences
 # Uncomment and modify the options below to customize test execution behavior.
 # CLI options will override these settings when specified.
-# preferences:
-#   tests:
-#     always_run:
-#       - .bugster/tests/test1.yaml
-#       - .bugster/tests/test2.yaml
-#     limit: 5                    # Maximum number of tests to run
+preferences:
+  tests:
+    #     always_run:
+    #       - .bugster/tests/test1.yaml
+    #       - .bugster/tests/test2.yaml
+    limit: 99 # Maximum number of tests to run
 #     headless: false             # Run tests in headless mode
 #     silent: false               # Run tests in silent mode
 #     verbose: false              # Enable verbose output
